@@ -11,7 +11,7 @@ def initBrowser():
     chrome_options = Options()
     #chrome_options.add_argument("--headless") # change browser visibility
     chrome_options.add_argument("--window-size=1920x1080")
-    chrome_options.add_argument("user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/604.3.5 (KHTML, like Gecko) Version/11.0.1 Safari/604.3.5")
+    #chrome_options.add_argument("user-agent=")
     chrome_options.add_argument("--start-maximized")
 
     path_to_chromedriver = './chromedriver' # change path as needed
